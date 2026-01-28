@@ -19,8 +19,8 @@ export default async function HomePage() {
             <span className="provider-badge mb-6">
               [ BUILT WITH BIFROST ]
             </span>
-            <h1 className="text-4xl md:text-6xl font-medium text-gray-900 mb-6 leading-[1.1] tracking-tight text-center">
-              Showcase of innovation <br className="hidden md:block" /> built on Bifrost.
+            <h1 className="text-3xl md:text-5xl font-medium text-gray-900 mb-6 leading-[1.1] tracking-tight text-center">
+              Innovative Projects <br className="hidden md:block" /> Built With Bifrost
             </h1>
             <p className="text-base md:text-lg text-gray-500 max-w-2xl mx-auto leading-relaxed mb-10">
               Discover amazing projects, tools, and applications created by the community using the Bifrost AI infrastructure.
