@@ -1,5 +1,7 @@
 import SubmissionForm from "@/components/SubmissionForm";
 import { SiteConfig } from "@/lib/site.config";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export const metadata = {
     title: `Submit Project - ${SiteConfig.siteName}`,
@@ -10,6 +12,12 @@ export default function SubmitPage() {
     return (
         <div className="min-h-screen bg-gray-50/50 py-12 md:py-20">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="mb-8">
+                    <Link href="/" className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-[var(--accent-text-dark)] transition-colors">
+                        <ArrowLeft size={16} /> Back to Showcase
+                    </Link>
+                </div>
+
                 <div className="text-center mb-12">
                     <span className="provider-badge mb-4">
                         [ CALL FOR SUBMISSIONS ]

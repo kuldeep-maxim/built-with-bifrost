@@ -60,7 +60,6 @@ export function Navbar() {
             <Link href={`${SiteConfig.links.bifrost}/#features`} className="navbar-link">Features</Link>
             <Link href={SiteConfig.links.enterprise} className="navbar-link">Enterprise</Link>
             <Link href={SiteConfig.links.docs} target="_blank" className="navbar-link">Docs</Link>
-            <Link href="/submit" className="navbar-link">Submit</Link>
             <Link href={SiteConfig.links.blog} className="navbar-link">Blog</Link>
           </div>
 

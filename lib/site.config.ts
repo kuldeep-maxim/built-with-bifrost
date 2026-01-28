@@ -1,12 +1,12 @@
 export const SiteConfig = {
     title: 'Built with Bifrost',
-    description: 'Discover amazing projects, tools, and applications created by the community using the Bifrost AI infrastructure.',
-    url: 'https://builtwith.bifrost.ai',
+    description: 'Discover amazing projects, tools, and applications created by the community using Bifrost by Maxim AI.',
+    url: 'https://getmaxim.ai/bifrost/built-with-bifrost',
     siteName: 'Built with Bifrost',
     keywords: ['Bifrost', 'Showcase', 'AI', 'Projects', 'Community'],
     hero: {
         badge: '[ BUILT WITH BIFROST ]',
-        title: 'Showcase of innovation created with Bifrost',
+        title: 'Innovative Projects Built with Bifrost',
         description: 'Discover amazing projects, tools, and applications created by the community.',
     },
     stats: {
